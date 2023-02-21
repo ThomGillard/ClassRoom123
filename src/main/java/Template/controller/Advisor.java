@@ -4,16 +4,14 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import Users.Student.IdeaProject.exception.NotFoundException;
 
 @ControllerAdvice
-public class Advisor {
+public class AdvisorController {
 
-    @ExceptionHandler
-    public String handle(Exception ex, Model model, HttpServletRequest req){
+    @ExceptionHandler({NotFoundException.class})
+    public String handle(NotFoundException ex, Model model, HttpServletRequest req){
         model.addAttribute("ex", ex);
-        //OPTIONEL > recup de la requete pour revenir en arrière grâce à "referer"
-        model.addAttribute("previous", req.getHeader("referer"));
-        //renvoi à la vue dans "ressources/template/"
-        return"errors/error";
+        return "errors/not-found";
     }
 }

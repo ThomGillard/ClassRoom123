@@ -4,51 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c64e8b1-5886-46d7-ab43-873c439d3841" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/TemplateApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/controller/Advisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/exceptions/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/dto/ClassroomDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/dto/RequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/entity/Availability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/entity/ClassRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/entity/Equipement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/entity/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/models/form/RequestNewForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/repository/Repository2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/service/impl/ServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/service/mapper/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/utils/DataInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/validation/constraints/constraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Template/validation/validators/validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/sqlRequest/request.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/errors/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/fragment/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/fragment/fragments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/fragment/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/item/display-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/item/display-one.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/item/insert-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/item/update-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/resources/templates/session/connexion.html" afterDir="false" />
+    <list default="true" id="5c64e8b1-5886-46d7-ab43-873c439d3841" name="Changes" comment="V1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Template/controller/Advisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Template/controller/Advisor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +18,14 @@
       <list>
         <option value="AnnotationType" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -85,6 +51,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Student/IdeaProjects/ClassRoomV1/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -118,11 +88,55 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676969974810</updated>
-      <workItem from="1676969976034" duration="283000" />
+      <workItem from="1676969976034" duration="917000" />
     </task>
+    <task id="LOCAL-00001" summary="V1">
+      <created>1676970313502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970313502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="V1">
+      <created>1676970372680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970372680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="V1">
+      <created>1676970442017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970442017</updated>
+    </task>
+    <task id="LOCAL-00004" summary="V1">
+      <created>1676970613572</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970613572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1" />
   </component>
 </project>
